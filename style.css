@@ -13,7 +13,10 @@ header{
         max-width: 800px;/*largura maxima margin: 0 auto;/*configura margens*/ 
         margin: 0 auto;/*espaçamento esterno ao redor elemento*/
         
+        display: flex /*habilito o uso de flex box*/
     } 
         
         footer{ background-color: rgb(100, 96, 96); 
-            color: #6b558f; }
+            color:blue
+
+
