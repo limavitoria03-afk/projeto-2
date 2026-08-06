@@ -11,7 +11,8 @@ header{
         color: lightgray; 
         text-align: center; /*alinha o texto ao centro*/ 
         max-width: 800px;/*largura maxima margin: 0 auto;/*configura margens*/ 
-        margin: 0 auto;
+        margin: 0 auto;/*espaçamento esterno ao redor elemento*/
+        
     } 
         
         footer{ background-color: rgb(100, 96, 96); 
