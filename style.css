@@ -1,14 +1,14 @@
 header{ 
- background-color: rgb(117, 0, 226);/*cor de fundo*/   
+ background-color: rgb(28, 13, 95);/*cor de fundo*/   
   color: black;/*cor de texto*/ 
  text-align: center;
  max-width: 800px;
  margin: 0 auto;
  padding: 16px;/*espaciamento interno*/
-border: 5px solid rgb(191, 63, 241);
+border: 5px solid rgb(57, 156, 238);
 }
 main{
-  background-color: rgb(123, 92, 207); 
+  background-color: rgb(92, 171, 207); 
   color: black;
   text-align: center;/*alinhamento do texto*/
   max-width: 800px;/*largura máxima*/ 
@@ -19,8 +19,8 @@ flex-direction: row/*orienta os elemento na horizontal na ordem 1 2 3 */;
 } 
  
 footer{ 
-  background-color: rgb(65, 41, 102);/*cor de fundo*/
-color:rgb(85, 41, 155) /*cor de fonte*/
+  background-color: rgb(41, 83, 102);/*cor de fundo*/
+color:rgb(41, 52, 155) /*cor de fonte*/
 max-width: 800px;/*largura maxima*/
 display: flex;/*habilita o uso de flex box*/
 margin: 0 auto;/*espaçamento externo ao redor do elemento*/
