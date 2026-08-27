@@ -1,20 +1,34 @@
 header{ 
-    background-color: whitesmoke;/*cor de fundo do cabeçario*/
-     color: skyblue;/*cor da fonte*/
-      text-align-last: center;
-       max-width: 800;
-        margin: 0 auto;/*configura margens*/
-        padding: 16px;
-        border: 5px solid pin;
-
-     } main{ background-color: lightpink; 
-        color: lightgray; 
-        text-align: center; /*alinha o texto ao centro*/ 
-        max-width: 800px;/*largura maxima margin: 0 auto;/*configura margens*/ 
-        margin: 0 auto;/*espaçamento esterno ao redor elemento*/
-        
-        display: flex /*habilito o uso de flex box*/
-    } 
-        
-        footer{ background-color: rgb(100, 96, 96); 
-            color: blue;
+ background-color: rgb(117, 0, 226);/*cor de fundo*/   
+  color: black;/*cor de texto*/ 
+ text-align: center;
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 16px;/*espaciamento interno*/
+border: 5px solid rgb(191, 63, 241);
+}
+main{
+  background-color: rgb(123, 92, 207); 
+  color: black;
+  text-align: center;/*alinhamento do texto*/
+  max-width: 800px;/*largura máxima*/ 
+  margin: 0 auto;/*espaçamento externo ao redor do elemento*/
+padding: 16px;/*escapamento interno*/
+  display: flex;/*habilita o uso de flex box*/
+flex-direction: row/*orienta os elemento na horizontal na ordem 1 2 3 */;
+} 
+ 
+footer{ 
+  background-color: rgb(65, 41, 102);/*cor de fundo*/
+color:rgb(85, 41, 155) /*cor de fonte*/
+max-width: 800px;/*largura maxima*/
+display: flex;/*habilita o uso de flex box*/
+margin: 0 auto;/*espaçamento externo ao redor do elemento*/
+}
+img{
+width: 80px;/*largura*/
+height: 80px;/*altura*/
+}
+.artigo-autor{
+font-weight: bold;
+}
